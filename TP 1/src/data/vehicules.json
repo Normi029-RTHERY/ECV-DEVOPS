@@ -1,0 +1,1202 @@
+[
+    {
+        "manufacturer": {
+            "id": 1,
+            "name": "Hyundai"
+        },
+        "model": "2",
+        "type": "Cargo Van",
+        "fuel": "Diesel",
+        "color": "orange",
+        "vrm": "ZD20KEK",
+        "id": 1
+    },
+    {
+        "manufacturer": {
+            "id": 2,
+            "name": "Bentley"
+        },
+        "model": "Mercielago",
+        "type": "Sedan",
+        "fuel": "Hybrid",
+        "color": "gold",
+        "vrm": "CV02EBW",
+        "id": 2
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "Expedition",
+        "type": "Crew Cab Pickup",
+        "fuel": "Hybrid",
+        "color": "black",
+        "vrm": "DD50CRX",
+        "id": 3
+    },
+    {
+        "manufacturer": {
+            "id": 4,
+            "name": "Porsche"
+        },
+        "model": "Model Y",
+        "type": "Sedan",
+        "fuel": "Hybrid",
+        "color": "sky blue",
+        "vrm": "DL18UJK",
+        "id": 4
+    },
+    {
+        "manufacturer": {
+            "id": 5,
+            "name": "BMW"
+        },
+        "model": "Mustang",
+        "type": "Extended Cab Pickup",
+        "fuel": "Electric",
+        "color": "salmon",
+        "vrm": "YK32TXU",
+        "id": 5
+    },
+    {
+        "manufacturer": {
+            "id": 6,
+            "name": "Chevrolet"
+        },
+        "model": "Mustang",
+        "type": "Coupe",
+        "fuel": "Hybrid",
+        "color": "tan",
+        "vrm": "TF90SND",
+        "id": 6
+    },
+    {
+        "manufacturer": {
+            "id": 7,
+            "name": "Chrysler"
+        },
+        "model": "Camry",
+        "type": "Extended Cab Pickup",
+        "fuel": "Electric",
+        "color": "fuchsia",
+        "vrm": "TT45LDJ",
+        "id": 7
+    },
+    {
+        "manufacturer": {
+            "id": 8,
+            "name": "Ford"
+        },
+        "model": "Spyder",
+        "type": "SUV",
+        "fuel": "Diesel",
+        "color": "orange",
+        "vrm": "MF69VXE",
+        "id": 8
+    },
+    {
+        "manufacturer": {
+            "id": 9,
+            "name": "Mazda"
+        },
+        "model": "Expedition",
+        "type": "SUV",
+        "fuel": "Diesel",
+        "color": "blue",
+        "vrm": "JG08DFY",
+        "id": 9
+    },
+    {
+        "manufacturer": {
+            "id": 10,
+            "name": "Aston Martin"
+        },
+        "model": "Charger",
+        "type": "Crew Cab Pickup",
+        "fuel": "Electric",
+        "color": "mint green",
+        "vrm": "PA54YVX",
+        "id": 10
+    },
+    {
+        "manufacturer": {
+            "id": 11,
+            "name": "Volkswagen"
+        },
+        "model": "Aventador",
+        "type": "Sedan",
+        "fuel": "Diesel",
+        "color": "fuchsia",
+        "vrm": "AX94LOJ",
+        "id": 11
+    },
+    {
+        "manufacturer": {
+            "id": 12,
+            "name": "Audi"
+        },
+        "model": "2",
+        "type": "Minivan",
+        "fuel": "Diesel",
+        "color": "fuchsia",
+        "vrm": "ZU32ZCP",
+        "id": 12
+    },
+    {
+        "manufacturer": {
+            "id": 13,
+            "name": "Honda"
+        },
+        "model": "Model T",
+        "type": "Minivan",
+        "fuel": "Gasoline",
+        "color": "violet",
+        "vrm": "EZ46RFH",
+        "id": 13
+    },
+    {
+        "manufacturer": {
+            "id": 2,
+            "name": "Bentley"
+        },
+        "model": "ATS",
+        "type": "Minivan",
+        "fuel": "Diesel",
+        "color": "ivory",
+        "vrm": "JS02ZBE",
+        "id": 14
+    },
+    {
+        "manufacturer": {
+            "id": 14,
+            "name": "Jeep"
+        },
+        "model": "Fiesta",
+        "type": "Coupe",
+        "fuel": "Gasoline",
+        "color": "white",
+        "vrm": "RW04EQP",
+        "id": 15
+    },
+    {
+        "manufacturer": {
+            "id": 2,
+            "name": "Bentley"
+        },
+        "model": "Model S",
+        "type": "Cargo Van",
+        "fuel": "Hybrid",
+        "color": "orchid",
+        "vrm": "YF86WIC",
+        "id": 16
+    },
+    {
+        "manufacturer": {
+            "id": 15,
+            "name": "Ferrari"
+        },
+        "model": "Escalade",
+        "type": "Sedan",
+        "fuel": "Gasoline",
+        "color": "sky blue",
+        "vrm": "KZ96FZZ",
+        "id": 17
+    },
+    {
+        "manufacturer": {
+            "id": 14,
+            "name": "Jeep"
+        },
+        "model": "Corvette",
+        "type": "Coupe",
+        "fuel": "Electric",
+        "color": "olive",
+        "vrm": "TX42BWN",
+        "id": 18
+    },
+    {
+        "manufacturer": {
+            "id": 11,
+            "name": "Volkswagen"
+        },
+        "model": "Grand Cherokee",
+        "type": "Coupe",
+        "fuel": "Gasoline",
+        "color": "blue",
+        "vrm": "LL31VQB",
+        "id": 19
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "A8",
+        "type": "Sedan",
+        "fuel": "Electric",
+        "color": "silver",
+        "vrm": "LP46MCU",
+        "id": 20
+    },
+    {
+        "manufacturer": {
+            "id": 6,
+            "name": "Chevrolet"
+        },
+        "model": "Element",
+        "type": "Sedan",
+        "fuel": "Gasoline",
+        "color": "silver",
+        "vrm": "WS77GXZ",
+        "id": 21
+    },
+    {
+        "manufacturer": {
+            "id": 12,
+            "name": "Audi"
+        },
+        "model": "Fortwo",
+        "type": "Sedan",
+        "fuel": "Diesel",
+        "color": "orange",
+        "vrm": "SM86ADN",
+        "id": 22
+    },
+    {
+        "manufacturer": {
+            "id": 17,
+            "name": "Toyota"
+        },
+        "model": "Model X",
+        "type": "Sedan",
+        "fuel": "Electric",
+        "color": "azure",
+        "vrm": "QF10KFJ",
+        "id": 23
+    },
+    {
+        "manufacturer": {
+            "id": 18,
+            "name": "Land Rover"
+        },
+        "model": "CX-9",
+        "type": "Convertible",
+        "fuel": "Hybrid",
+        "color": "turquoise",
+        "vrm": "PE93XTP",
+        "id": 24
+    },
+    {
+        "manufacturer": {
+            "id": 14,
+            "name": "Jeep"
+        },
+        "model": "Model Y",
+        "type": "Hatchback",
+        "fuel": "Electric",
+        "color": "turquoise",
+        "vrm": "PD30CTI",
+        "id": 25
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "Civic",
+        "type": "Passenger Van",
+        "fuel": "Gasoline",
+        "color": "ivory",
+        "vrm": "LP91QVA",
+        "id": 26
+    },
+    {
+        "manufacturer": {
+            "id": 1,
+            "name": "Hyundai"
+        },
+        "model": "Alpine",
+        "type": "Crew Cab Pickup",
+        "fuel": "Diesel",
+        "color": "teal",
+        "vrm": "VT43ZTB",
+        "id": 27
+    },
+    {
+        "manufacturer": {
+            "id": 2,
+            "name": "Bentley"
+        },
+        "model": "Spyder",
+        "type": "Hatchback",
+        "fuel": "Electric",
+        "color": "orchid",
+        "vrm": "YC70MBD",
+        "id": 28
+    },
+    {
+        "manufacturer": {
+            "id": 15,
+            "name": "Ferrari"
+        },
+        "model": "Escalade",
+        "type": "Wagon",
+        "fuel": "Diesel",
+        "color": "violet",
+        "vrm": "YU30UVT",
+        "id": 29
+    },
+    {
+        "manufacturer": {
+            "id": 19,
+            "name": "Maserati"
+        },
+        "model": "CX-9",
+        "type": "SUV",
+        "fuel": "Diesel",
+        "color": "silver",
+        "vrm": "OR09UBE",
+        "id": 30
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "LeBaron",
+        "type": "Cargo Van",
+        "fuel": "Diesel",
+        "color": "azure",
+        "vrm": "GW27VNN",
+        "id": 31
+    },
+    {
+        "manufacturer": {
+            "id": 20,
+            "name": "Cadillac"
+        },
+        "model": "El Camino",
+        "type": "Coupe",
+        "fuel": "Diesel",
+        "color": "yellow",
+        "vrm": "HQ69IBL",
+        "id": 32
+    },
+    {
+        "manufacturer": {
+            "id": 1,
+            "name": "Hyundai"
+        },
+        "model": "Volt",
+        "type": "Minivan",
+        "fuel": "Hybrid",
+        "color": "ivory",
+        "vrm": "ZN94JVM",
+        "id": 33
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "Fiesta",
+        "type": "Cargo Van",
+        "fuel": "Hybrid",
+        "color": "blue",
+        "vrm": "WL45GWU",
+        "id": 34
+    },
+    {
+        "manufacturer": {
+            "id": 10,
+            "name": "Aston Martin"
+        },
+        "model": "Volt",
+        "type": "Minivan",
+        "fuel": "Diesel",
+        "color": "indigo",
+        "vrm": "AN27XSB",
+        "id": 35
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "Jetta",
+        "type": "SUV",
+        "fuel": "Electric",
+        "color": "red",
+        "vrm": "JP30SBG",
+        "id": 36
+    },
+    {
+        "manufacturer": {
+            "id": 10,
+            "name": "Aston Martin"
+        },
+        "model": "PT Cruiser",
+        "type": "Wagon",
+        "fuel": "Electric",
+        "color": "pink",
+        "vrm": "OU71XIU",
+        "id": 37
+    },
+    {
+        "manufacturer": {
+            "id": 21,
+            "name": "Lamborghini"
+        },
+        "model": "Grand Cherokee",
+        "type": "Convertible",
+        "fuel": "Hybrid",
+        "color": "indigo",
+        "vrm": "EZ49LIM",
+        "id": 38
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "Camry",
+        "type": "Passenger Van",
+        "fuel": "Diesel",
+        "color": "purple",
+        "vrm": "MQ55OMX",
+        "id": 39
+    },
+    {
+        "manufacturer": {
+            "id": 22,
+            "name": "Mercedes Benz"
+        },
+        "model": "Civic",
+        "type": "Cargo Van",
+        "fuel": "Electric",
+        "color": "blue",
+        "vrm": "EA79IBU",
+        "id": 40
+    },
+    {
+        "manufacturer": {
+            "id": 7,
+            "name": "Chrysler"
+        },
+        "model": "Grand Cherokee",
+        "type": "Cargo Van",
+        "fuel": "Hybrid",
+        "color": "lavender",
+        "vrm": "AO03WZY",
+        "id": 41
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "Grand Caravan",
+        "type": "Crew Cab Pickup",
+        "fuel": "Electric",
+        "color": "plum",
+        "vrm": "XS58KAG",
+        "id": 42
+    },
+    {
+        "manufacturer": {
+            "id": 23,
+            "name": "Polestar"
+        },
+        "model": "Camry",
+        "type": "Coupe",
+        "fuel": "Gasoline",
+        "color": "red",
+        "vrm": "KK23YRH",
+        "id": 43
+    },
+    {
+        "manufacturer": {
+            "id": 24,
+            "name": "Smart"
+        },
+        "model": "Wrangler",
+        "type": "SUV",
+        "fuel": "Gasoline",
+        "color": "turquoise",
+        "vrm": "XG40WCG",
+        "id": 44
+    },
+    {
+        "manufacturer": {
+            "id": 25,
+            "name": "Rolls Royce"
+        },
+        "model": "Wrangler",
+        "type": "Hatchback",
+        "fuel": "Gasoline",
+        "color": "pink",
+        "vrm": "OO29TIL",
+        "id": 45
+    },
+    {
+        "manufacturer": {
+            "id": 20,
+            "name": "Cadillac"
+        },
+        "model": "Taurus",
+        "type": "SUV",
+        "fuel": "Diesel",
+        "color": "green",
+        "vrm": "FQ37BVP",
+        "id": 46
+    },
+    {
+        "manufacturer": {
+            "id": 2,
+            "name": "Bentley"
+        },
+        "model": "LeBaron",
+        "type": "Convertible",
+        "fuel": "Hybrid",
+        "color": "ivory",
+        "vrm": "NV10JMJ",
+        "id": 47
+    },
+    {
+        "manufacturer": {
+            "id": 10,
+            "name": "Aston Martin"
+        },
+        "model": "Camry",
+        "type": "Coupe",
+        "fuel": "Hybrid",
+        "color": "magenta",
+        "vrm": "BO17VOQ",
+        "id": 48
+    },
+    {
+        "manufacturer": {
+            "id": 15,
+            "name": "Ferrari"
+        },
+        "model": "LeBaron",
+        "type": "Minivan",
+        "fuel": "Electric",
+        "color": "yellow",
+        "vrm": "QF65SGX",
+        "id": 49
+    },
+    {
+        "manufacturer": {
+            "id": 1,
+            "name": "Hyundai"
+        },
+        "model": "2",
+        "type": "Convertible",
+        "fuel": "Gasoline",
+        "color": "olive",
+        "vrm": "WX60VTW",
+        "id": 50
+    },
+    {
+        "manufacturer": {
+            "id": 17,
+            "name": "Toyota"
+        },
+        "model": "Countach",
+        "type": "Hatchback",
+        "fuel": "Gasoline",
+        "color": "plum",
+        "vrm": "YG43YJX",
+        "id": 51
+    },
+    {
+        "manufacturer": {
+            "id": 19,
+            "name": "Maserati"
+        },
+        "model": "Volt",
+        "type": "Wagon",
+        "fuel": "Hybrid",
+        "color": "purple",
+        "vrm": "US96GUE",
+        "id": 52
+    },
+    {
+        "manufacturer": {
+            "id": 7,
+            "name": "Chrysler"
+        },
+        "model": "Model S",
+        "type": "Coupe",
+        "fuel": "Electric",
+        "color": "red",
+        "vrm": "MS87UIO",
+        "id": 53
+    },
+    {
+        "manufacturer": {
+            "id": 24,
+            "name": "Smart"
+        },
+        "model": "Spyder",
+        "type": "Extended Cab Pickup",
+        "fuel": "Gasoline",
+        "color": "yellow",
+        "vrm": "IM10QXW",
+        "id": 54
+    },
+    {
+        "manufacturer": {
+            "id": 9,
+            "name": "Mazda"
+        },
+        "model": "Silverado",
+        "type": "Wagon",
+        "fuel": "Hybrid",
+        "color": "azure",
+        "vrm": "YD13CMC",
+        "id": 55
+    },
+    {
+        "manufacturer": {
+            "id": 12,
+            "name": "Audi"
+        },
+        "model": "Fiesta",
+        "type": "Cargo Van",
+        "fuel": "Diesel",
+        "color": "pink",
+        "vrm": "DK27XDW",
+        "id": 56
+    },
+    {
+        "manufacturer": {
+            "id": 5,
+            "name": "BMW"
+        },
+        "model": "Civic",
+        "type": "SUV",
+        "fuel": "Gasoline",
+        "color": "plum",
+        "vrm": "GG36VQU",
+        "id": 57
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "Civic",
+        "type": "Wagon",
+        "fuel": "Gasoline",
+        "color": "green",
+        "vrm": "GP10EJV",
+        "id": 58
+    },
+    {
+        "manufacturer": {
+            "id": 13,
+            "name": "Honda"
+        },
+        "model": "V90",
+        "type": "Passenger Van",
+        "fuel": "Diesel",
+        "color": "maroon",
+        "vrm": "QR24BDI",
+        "id": 59
+    },
+    {
+        "manufacturer": {
+            "id": 22,
+            "name": "Mercedes Benz"
+        },
+        "model": "Expedition",
+        "type": "SUV",
+        "fuel": "Diesel",
+        "color": "silver",
+        "vrm": "NI19KPN",
+        "id": 60
+    },
+    {
+        "manufacturer": {
+            "id": 12,
+            "name": "Audi"
+        },
+        "model": "Focus",
+        "type": "Hatchback",
+        "fuel": "Diesel",
+        "color": "red",
+        "vrm": "ZH25CTS",
+        "id": 61
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "Fiesta",
+        "type": "Convertible",
+        "fuel": "Hybrid",
+        "color": "teal",
+        "vrm": "CF83RYM",
+        "id": 62
+    },
+    {
+        "manufacturer": {
+            "id": 17,
+            "name": "Toyota"
+        },
+        "model": "Sentra",
+        "type": "Hatchback",
+        "fuel": "Electric",
+        "color": "lavender",
+        "vrm": "KX85LJI",
+        "id": 63
+    },
+    {
+        "manufacturer": {
+            "id": 17,
+            "name": "Toyota"
+        },
+        "model": "Mustang",
+        "type": "Crew Cab Pickup",
+        "fuel": "Diesel",
+        "color": "azure",
+        "vrm": "IJ04HDJ",
+        "id": 64
+    },
+    {
+        "manufacturer": {
+            "id": 15,
+            "name": "Ferrari"
+        },
+        "model": "Camry",
+        "type": "Sedan",
+        "fuel": "Gasoline",
+        "color": "azure",
+        "vrm": "RE78JQJ",
+        "id": 65
+    },
+    {
+        "manufacturer": {
+            "id": 4,
+            "name": "Porsche"
+        },
+        "model": "Colorado",
+        "type": "Coupe",
+        "fuel": "Diesel",
+        "color": "mint green",
+        "vrm": "BX09MCB",
+        "id": 66
+    },
+    {
+        "manufacturer": {
+            "id": 20,
+            "name": "Cadillac"
+        },
+        "model": "Escalade",
+        "type": "Wagon",
+        "fuel": "Gasoline",
+        "color": "black",
+        "vrm": "KH85ZET",
+        "id": 67
+    },
+    {
+        "manufacturer": {
+            "id": 10,
+            "name": "Aston Martin"
+        },
+        "model": "Charger",
+        "type": "Wagon",
+        "fuel": "Diesel",
+        "color": "silver",
+        "vrm": "RP90EIV",
+        "id": 68
+    },
+    {
+        "manufacturer": {
+            "id": 22,
+            "name": "Mercedes Benz"
+        },
+        "model": "Impala",
+        "type": "Crew Cab Pickup",
+        "fuel": "Electric",
+        "color": "indigo",
+        "vrm": "BD32ZHA",
+        "id": 69
+    },
+    {
+        "manufacturer": {
+            "id": 6,
+            "name": "Chevrolet"
+        },
+        "model": "Aventador",
+        "type": "Crew Cab Pickup",
+        "fuel": "Electric",
+        "color": "fuchsia",
+        "vrm": "OX51RMR",
+        "id": 70
+    },
+    {
+        "manufacturer": {
+            "id": 23,
+            "name": "Polestar"
+        },
+        "model": "Grand Caravan",
+        "type": "Passenger Van",
+        "fuel": "Hybrid",
+        "color": "yellow",
+        "vrm": "VC66NKY",
+        "id": 71
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "Fortwo",
+        "type": "Passenger Van",
+        "fuel": "Diesel",
+        "color": "cyan",
+        "vrm": "MT61VTE",
+        "id": 72
+    },
+    {
+        "manufacturer": {
+            "id": 24,
+            "name": "Smart"
+        },
+        "model": "Accord",
+        "type": "Passenger Van",
+        "fuel": "Gasoline",
+        "color": "salmon",
+        "vrm": "SK39QEJ",
+        "id": 73
+    },
+    {
+        "manufacturer": {
+            "id": 9,
+            "name": "Mazda"
+        },
+        "model": "Sentra",
+        "type": "Crew Cab Pickup",
+        "fuel": "Hybrid",
+        "color": "blue",
+        "vrm": "IO58QQP",
+        "id": 74
+    },
+    {
+        "manufacturer": {
+            "id": 19,
+            "name": "Maserati"
+        },
+        "model": "Silverado",
+        "type": "Wagon",
+        "fuel": "Electric",
+        "color": "ivory",
+        "vrm": "AT42NVV",
+        "id": 75
+    },
+    {
+        "manufacturer": {
+            "id": 11,
+            "name": "Volkswagen"
+        },
+        "model": "XC90",
+        "type": "Passenger Van",
+        "fuel": "Gasoline",
+        "color": "grey",
+        "vrm": "ZW02YVI",
+        "id": 76
+    },
+    {
+        "manufacturer": {
+            "id": 7,
+            "name": "Chrysler"
+        },
+        "model": "A8",
+        "type": "SUV",
+        "fuel": "Hybrid",
+        "color": "tan",
+        "vrm": "GC87YNO",
+        "id": 77
+    },
+    {
+        "manufacturer": {
+            "id": 11,
+            "name": "Volkswagen"
+        },
+        "model": "Countach",
+        "type": "Minivan",
+        "fuel": "Electric",
+        "color": "violet",
+        "vrm": "ZQ44HKB",
+        "id": 78
+    },
+    {
+        "manufacturer": {
+            "id": 25,
+            "name": "Rolls Royce"
+        },
+        "model": "Grand Caravan",
+        "type": "Cargo Van",
+        "fuel": "Electric",
+        "color": "green",
+        "vrm": "ND03JYS",
+        "id": 79
+    },
+    {
+        "manufacturer": {
+            "id": 23,
+            "name": "Polestar"
+        },
+        "model": "Grand Caravan",
+        "type": "Wagon",
+        "fuel": "Hybrid",
+        "color": "olive",
+        "vrm": "WI41OZW",
+        "id": 80
+    },
+    {
+        "manufacturer": {
+            "id": 16,
+            "name": "Volvo"
+        },
+        "model": "XTS",
+        "type": "Crew Cab Pickup",
+        "fuel": "Hybrid",
+        "color": "lavender",
+        "vrm": "EV69VAJ",
+        "id": 81
+    },
+    {
+        "manufacturer": {
+            "id": 6,
+            "name": "Chevrolet"
+        },
+        "model": "Altima",
+        "type": "Sedan",
+        "fuel": "Diesel",
+        "color": "gold",
+        "vrm": "OQ64GGX",
+        "id": 82
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "Civic",
+        "type": "Sedan",
+        "fuel": "Diesel",
+        "color": "magenta",
+        "vrm": "AE55JXH",
+        "id": 83
+    },
+    {
+        "manufacturer": {
+            "id": 5,
+            "name": "BMW"
+        },
+        "model": "Wrangler",
+        "type": "Coupe",
+        "fuel": "Hybrid",
+        "color": "fuchsia",
+        "vrm": "QO48RWL",
+        "id": 84
+    },
+    {
+        "manufacturer": {
+            "id": 4,
+            "name": "Porsche"
+        },
+        "model": "Malibu",
+        "type": "Cargo Van",
+        "fuel": "Diesel",
+        "color": "teal",
+        "vrm": "TD57ZCQ",
+        "id": 85
+    },
+    {
+        "manufacturer": {
+            "id": 18,
+            "name": "Land Rover"
+        },
+        "model": "Escalade",
+        "type": "SUV",
+        "fuel": "Diesel",
+        "color": "teal",
+        "vrm": "LI63LQV",
+        "id": 86
+    },
+    {
+        "manufacturer": {
+            "id": 3,
+            "name": "Jaguar"
+        },
+        "model": "PT Cruiser",
+        "type": "Crew Cab Pickup",
+        "fuel": "Diesel",
+        "color": "orchid",
+        "vrm": "FZ56UBE",
+        "id": 87
+    },
+    {
+        "manufacturer": {
+            "id": 18,
+            "name": "Land Rover"
+        },
+        "model": "Grand Caravan",
+        "type": "Passenger Van",
+        "fuel": "Hybrid",
+        "color": "red",
+        "vrm": "WP84WBO",
+        "id": 88
+    },
+    {
+        "manufacturer": {
+            "id": 26,
+            "name": "Bugatti"
+        },
+        "model": "Countach",
+        "type": "Wagon",
+        "fuel": "Hybrid",
+        "color": "fuchsia",
+        "vrm": "YK12BTN",
+        "id": 89
+    },
+    {
+        "manufacturer": {
+            "id": 15,
+            "name": "Ferrari"
+        },
+        "model": "El Camino",
+        "type": "Hatchback",
+        "fuel": "Gasoline",
+        "color": "blue",
+        "vrm": "ZX18NVI",
+        "id": 90
+    },
+    {
+        "manufacturer": {
+            "id": 21,
+            "name": "Lamborghini"
+        },
+        "model": "Fiesta",
+        "type": "Hatchback",
+        "fuel": "Electric",
+        "color": "orange",
+        "vrm": "IC32GTM",
+        "id": 91
+    },
+    {
+        "manufacturer": {
+            "id": 17,
+            "name": "Toyota"
+        },
+        "model": "911",
+        "type": "SUV",
+        "fuel": "Hybrid",
+        "color": "orange",
+        "vrm": "PC28EXT",
+        "id": 92
+    },
+    {
+        "manufacturer": {
+            "id": 13,
+            "name": "Honda"
+        },
+        "model": "Charger",
+        "type": "Hatchback",
+        "fuel": "Electric",
+        "color": "violet",
+        "vrm": "LC57CDB",
+        "id": 93
+    },
+    {
+        "manufacturer": {
+            "id": 9,
+            "name": "Mazda"
+        },
+        "model": "Model T",
+        "type": "Coupe",
+        "fuel": "Electric",
+        "color": "olive",
+        "vrm": "UJ69HHI",
+        "id": 94
+    },
+    {
+        "manufacturer": {
+            "id": 8,
+            "name": "Ford"
+        },
+        "model": "CX-9",
+        "type": "Coupe",
+        "fuel": "Diesel",
+        "color": "turquoise",
+        "vrm": "NU93VEN",
+        "id": 95
+    },
+    {
+        "manufacturer": {
+            "id": 6,
+            "name": "Chevrolet"
+        },
+        "model": "PT Cruiser",
+        "type": "Convertible",
+        "fuel": "Electric",
+        "color": "olive",
+        "vrm": "RT41QEP",
+        "id": 96
+    },
+    {
+        "manufacturer": {
+            "id": 20,
+            "name": "Cadillac"
+        },
+        "model": "Model 3",
+        "type": "Extended Cab Pickup",
+        "fuel": "Electric",
+        "color": "magenta",
+        "vrm": "IC61XLJ",
+        "id": 97
+    },
+    {
+        "manufacturer": {
+            "id": 27,
+            "name": "Fiat"
+        },
+        "model": "Grand Cherokee",
+        "type": "Wagon",
+        "fuel": "Electric",
+        "color": "red",
+        "vrm": "TR55JJM",
+        "id": 98
+    },
+    {
+        "manufacturer": {
+            "id": 7,
+            "name": "Chrysler"
+        },
+        "model": "Impala",
+        "type": "Coupe",
+        "fuel": "Electric",
+        "color": "tan",
+        "vrm": "GV57OSV",
+        "id": 99
+    },
+    {
+        "manufacturer": {
+            "id": 15,
+            "name": "Ferrari"
+        },
+        "model": "Civic",
+        "type": "Crew Cab Pickup",
+        "fuel": "Hybrid",
+        "color": "magenta",
+        "vrm": "OT53QFH",
+        "id": 100
+    }
+]

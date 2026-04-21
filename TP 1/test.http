@@ -1,0 +1,43 @@
+### Test server running
+GET http://localhost:3000/
+
+### Test Get all vehicles
+GET http://localhost:3000/api/vehicles/
+
+### Test Get one vehicle
+GET http://localhost:3000/api/vehicles/1
+
+### Test Create a vehicle
+POST http://localhost:3000/api/vehicles/
+Content-Type: application/json
+
+{
+    "manufacturer": {
+        "id": 21,
+        "name":"Lamborghini"
+    },
+    "model": "Spyder",
+    "type": "Minivan",
+    "fuel": "Hybrid",
+    "color": "sky blue",
+    "vrm": "WL66JLH"
+}
+
+### Test Update a vehicle
+PUT http://localhost:3000/api/vehicles/101
+Content-Type: application/json
+
+{
+    "manufacturer": {
+        "id": 21,
+        "name":"Lamborghini"
+    },
+    "model": "Spyder",
+    "type": "Minivan",
+    "fuel": "Hybrid",
+    "color": "dark blue",
+    "vrm": "WL66JLH"
+}
+
+### Test Delete a vehicle
+DELETE http://localhost:3000/api/vehicles/101
