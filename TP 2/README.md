@@ -1,6 +1,6 @@
-# API REST, Endpoints CRUD sur des véhicules et Authetification
+# Initiation aux architectures micro-services et mise en pratique avec Node et MongoDB
 ## ECV - M1 Dev - Master Lead Developement Frontend 2025 - 2026
-### DevOps TP 1 - Intervenant : Yaya DOUMBIA
+### DevOps TP 2 - Intervenant : Yaya DOUMBIA
 ### Romain THÉRY
 ---
 
