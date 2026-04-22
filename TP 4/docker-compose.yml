@@ -1,0 +1,68 @@
+services:
+  db:
+    container_name: db
+    restart: unless-stopped
+    image: mongo:8.2
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+    healthcheck:
+      test: [ "CMD", "mongosh", "--eval", "db.adminCommand('ping').ok", "--quiet" ]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  auth:
+    image: theryromain/ecv-devops:auth-0.1
+    build: ./AuthService
+    container_name: service_auth
+    environment:
+      - NODE_ENV=production
+      - PORT=4002
+      - MONGODB_URI=mongodb://db:27017/auth
+      - JWT_SECRET=QWERTYUIOPASDFGHJKLZXCVBNM1234567890abcdefABCDEFGH
+      - JWT_EXPIRES_IN=90d
+    ports:
+      - "5002:4002"
+    restart: unless-stopped
+    volumes:
+      - /app/node_modules
+    depends_on:
+      db:
+        condition: service_healthy
+
+  produit:
+    image: theryromain/ecv-devops:produit-0.1
+    build: ./ServiceProduit
+    container_name: service_produits
+    environment:
+      - MONGODB_URI=mongodb://db:27017/produits
+    ports:
+      - "5000:4000"
+    restart: unless-stopped
+    volumes:
+      - /app/node_modules
+    depends_on:
+      db:
+        condition: service_healthy
+
+  commande:
+    image: theryromain/ecv-devops:commande-0.1
+    build: ./ServiceCommande
+    container_name: service_commandes
+    environment:
+      - MONGODB_URI=mongodb://db:27017/commandes
+      - SERVICE_PRODUIT_URL=http://service_produits:4000
+    ports:
+      - "5001:4001"
+    restart: unless-stopped
+    volumes:
+      - /app/node_modules
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  data:
