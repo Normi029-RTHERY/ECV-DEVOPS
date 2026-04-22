@@ -11,12 +11,21 @@
 - Définition de « Azure App Service »
 - Déployer une application multi-conteneur en Azure App service
 
-## 
+## WIP
 
-### Création du repository sur DockerHub
-screens
+### Mise en place du repository sur DockerHub
+
+Création du repository sur DockerHub pour héberger les images Docker des microservices.
+
+![Création du repository](screenshots/dockerhub_repo_creation.png)
+
+Vue générale du repository après création, prêt à recevoir les images
+
+![Vue générale du repository](screenshots/dockerhub_repo_general.png)
 
 ### Modification du docker-compose
+
+On modifie le fichier `docker-compose.yml` pour utiliser les images Docker hébergées sur Docker Hub, si les images sont déjà poussées, sinon on peut les construire localement et les pousser ensuite.
 
 ```yml
 #...
@@ -41,3 +50,4 @@ commande:
 
 ## Conclusion
 
+### WIP
