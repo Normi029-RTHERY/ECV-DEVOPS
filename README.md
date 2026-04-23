@@ -8,15 +8,15 @@ Ce projet fait partie du programme **M1 Dev - Master Lead Development Frontend 2
 
 ## Structure
 
-### TP 1 : Fondamentaux des API REST
+### [TP 1 : Fondamentaux des API REST](TP%201/README.md)
 - Construction d'une API REST avec endpoints CRUD pour la gestion de véhicules
 - Implémentation de l'authentification par cookie
 
 **Stack** : Node.js, Express, MongoDB
 
-#### TP1-V2 : Version refactorisée du TP 1 utilisant TypeScript
+#### [TP1-V2 : Version refactorisée du TP 1 utilisant TypeScript](TP1-V2/README.md)
 
-### TP 2 : Architecture en Microservices
+### [TP 2 : Architecture en Microservices](TP%202/README.md)
 - Conception d'un système de gestion de produits et de commandes basé sur les microservices
 - Implémentation de trois services indépendants : Authentification, Produits et Commandes
 - Communication asynchrone entre services avec RabbitMQ
@@ -24,7 +24,7 @@ Ce projet fait partie du programme **M1 Dev - Master Lead Development Frontend 2
 
 **Stack** : Node.js, Express, MongoDB, RabbitMQ, Docker
 
-### TP 3 : Conteneurisation avec Docker
+### [TP 3 : Conteneurisation avec Docker](TP%203/README.md)
 - Conteneurisation de l'architecture en microservices du TP 2
 - Création de Dockerfiles optimisés pour chaque microservice
 - Orchestration des services avec Docker Compose
@@ -33,7 +33,7 @@ Ce projet fait partie du programme **M1 Dev - Master Lead Development Frontend 2
 
 **Stack technologique** : Docker, Docker Compose, Alpine Linux
 
-### TP 4 : Déploiement Cloud
+### [TP 4 : Déploiement Cloud](TP%204/README.md)
 - Containerisation des microservices et envoi d'images vers Docker Hub
 - Déploiement d'applications multi-conteneurs sur Azure App Service
 
