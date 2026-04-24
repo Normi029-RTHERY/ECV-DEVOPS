@@ -126,7 +126,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 3
-      start_period: 30s
+      start_period: 15s
   
   auth:
     container_name: service_auth

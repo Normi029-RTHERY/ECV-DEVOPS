@@ -1,13 +1,13 @@
 services:
   jenkins:
-    image: jenkins/jenkins:alpine-jdk219
-    container_name: jenkins
-    restart: on-failure
+    image: jenkins/jenkins:jdk21
+    container_name: jenkins-local
     ports:
       - "8080:8080"
       - "50000:50000"
     volumes:
       - jenkins_home:/var/jenkins_home
+    restart: unless-stopped
 
 volumes:
   jenkins_home:

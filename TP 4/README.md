@@ -70,8 +70,20 @@ app.get('/', (_, res) => {
 });
 ```
 
-
 ### Modification du docker-compose
+
+Ajout du service "Frontend" dans le fichier `docker-compose.yml` pour permettre son déploiement et sa communication avec les autres microservices.
+
+```yml
+frontend:
+  build: ./ServiceFrontend
+  container_name: service_frontend
+  ports:
+    - "8080:4003"
+  restart: unless-stopped
+    volumes:
+      - /app/node_modules
+```
 
 On modifie le fichier `docker-compose.yml` pour utiliser les images Docker hébergées sur Docker Hub, si les images sont déjà poussées, sinon on peut les construire localement et les pousser ensuite.
 
@@ -92,7 +104,36 @@ commande:
   image: theryromain/ecv-devops:commande-0.1
 
 #...
+
+frontend:
+  image: theryromain/ecv-devops:frontend-0.1
+
+#...
 ```
+
+### Vérification du bon fonctionnement des conteneurs
+
+Lancement des conteneurs avec `docker-compose up` et vérification que tous les services sont opérationnels.
+
+```bash
+docker-compose up
+```
+
+screen
+
+On vérifie que les images ont été créées avec les bons tags
+
+```bash
+docker images
+```
+
+screen
+
+Accès à l'application via le navigateur à l'adresse `http://localhost:8080` pour vérifier que le service "Frontend" fonctionne correctement et affiche la page d'accueil.
+
+screen
+
+
 
 ---
 

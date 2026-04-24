@@ -12,7 +12,7 @@ services:
       interval: 10s
       timeout: 5s
       retries: 3
-      start_period: 30s
+      start_period: 15s
 
   auth:
     image: theryromain/ecv-devops:auth-0.1
@@ -63,6 +63,16 @@ services:
     depends_on:
       db:
         condition: service_healthy
+
+  frontend:
+    image: theryromain/ecv-devops:frontend-0.1
+    build: ./ServiceFrontend
+    container_name: service_frontend
+    ports:
+      - "8080:4003"
+    restart: unless-stopped
+    volumes:
+      - /app/node_modules
 
 volumes:
   data:
